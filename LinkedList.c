@@ -143,7 +143,7 @@ void clear(linkedList* L) {
 	L->length = 0;										// 리스트의 길이 0으로 초기화
 }
 void selectionSortNo(linkedList* L) {
-	listNode* temp;										// 노드의 번호호를 저장할 임시 포인터 생성
+	listNode* temp;										// 노드의 번호를 저장할 임시 포인터 생성
 	listNode* min;										// 최소 번호을 갖는 노드를 저장할 포인터 생성
 	listNode* next;										// 다음 노드를 가리킬 노드 생성
 	int tempNo;											// 정보 이동을 위해 상수 / 문자열을 담을 변수 생성
@@ -186,7 +186,7 @@ void selectionSortNo(linkedList* L) {
 	}
 }
 void selectionSortPrice(linkedList* L) {
-	listNode* temp;										// 노드의 가격을을 저장할 임시 포인터 생성
+	listNode* temp;										// 노드의 가격을 저장할 임시 포인터 생성
 	listNode* min;										// 최소 가격을 갖는 노드를 저장할 포인터 생성
 	listNode* next;										// 다음 노드를 가리킬 노드 생성
 	int tempNo;											// 정보 이동을 위해 상수 / 문자열을 담을 변수 생성
@@ -229,3 +229,4 @@ void selectionSortPrice(linkedList* L) {
 	}
 
 }
+
